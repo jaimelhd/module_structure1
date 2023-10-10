@@ -1,7 +1,6 @@
 from module_structure1.tensor_operator import *
 
 
-__all__ = tensor_operator.__all__
 
 MAJOR = 1
 MINOR = 0
