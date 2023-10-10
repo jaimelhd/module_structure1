@@ -1,48 +1,29 @@
+
+
+
+
 from setuptools import setup, find_packages
+from module_structure1 import __author__,__version__,__name__
 
-# Project metadata
-name = "example-project"
-version = "0.1.0"
-description = "An example Python project"
-author = "Your Name"
-author_email = "your.email@example.com"
-url = "https://github.com/yourusername/example-project"
 
-# Required packages (dependencies)
-install_requires = [
-    # List your project's dependencies here
-]
+VERSION = __version__
+AUTHOR = __author__
+NAME = __name__
 
-# Entry points (if your project includes scripts or console entry points)
-entry_points = {
-    'console_scripts': [
-        'my_script = example_project.module:main_function',
-    ],
-}
-
-# Define the package structure and files to include
-packages = find_packages()
-
-# Additional package data (e.g., non-Python files)
-package_data = {
-    'example_project': ['data/*.txt'],
-}
-
-# Main setup configuration
 setup(
-    name=name,
-    version=version,
-    description=description,
-    author=author,
-    author_email=author_email,
-    url=url,
-    packages=packages,
-    package_data=package_data,
-    install_requires=install_requires,
-    entry_points=entry_points,
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-)
+    name                    = NAME,
+    version                 = VERSION,
+    description             = 'Brief description of your package',
+    author                  = AUTHOR,
+    author_email            = 'jaimelhd9@gmail.com',
+    license                 = 'MIT',
+    python_requires         = '>=3.9.5',
+    packages                = find_packages(),
+    include_package_data    = True,
+    package_data            = {'': ['resources/*.csv','resources/clusters/*.csv']},
+    install_requires        = [
+                                'pandas',
+                                'numpy',
+                                'torch'
+                                ]
+     )
