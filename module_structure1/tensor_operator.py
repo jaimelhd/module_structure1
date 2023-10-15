@@ -1,4 +1,3 @@
-#Jaime López de Heredia
 import torch
 
 
