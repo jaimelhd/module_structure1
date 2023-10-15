@@ -1,5 +1,6 @@
-#Jaime López de Heredia
 import torch
+
+
 my_tensor = torch.tensor([[4, 1], [5,3], [2,1]])
 
 
@@ -61,7 +62,8 @@ def tensor_blur(tensor, kernel_size):
     blur_kernel = torch.ones((kernel_size, kernel_size), dtype=torch.float32) / (kernel_size**2)
     return torch.nn.functional.conv2d(tensor.unsqueeze(0).unsqueeze(0), blur_kernel.unsqueeze(0).unsqueeze(0))
 
-my_tensor = torch.tensor([[1.0, 2.0], [3.0, 4.0]])  """decimales por eso usamos float"""
+my_tensor = torch.tensor([[1.0, 2.0], [3.0, 4.0]])
+
 #Aplicamos desenfoque al tensor
 blurred_tensor = tensor_blur(my_tensor, kernel_size=2)
 
