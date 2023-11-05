@@ -21,7 +21,7 @@ You will have to import -> from module_structure1.tensor_operator import TensorC
 
 And initialize a TensorCalculator objetc.
 
-tc = Tensor.calculator()
+tc = TensorCalculator()
 
 With these, you can start using the functions.
 
