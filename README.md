@@ -27,7 +27,11 @@ The -U option to update an already installed package to the latest available ver
 And after you install it, you need to go to python and import the module.
 If you want to use the tensor operator project use this command:
 
-import tensor_operator 
+import module_structure1 
+
+And you can watch all the answers.
+
+
 
 
 
