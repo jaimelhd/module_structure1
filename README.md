@@ -16,6 +16,7 @@ Using the following command in on your Conda environment for example
 
 pip install -U git+https://github.com/jaimelhd/module_structure1.git
 
+You will ned to import torch. 
 Then, in a new python file for example in Jupiter you will do the following:
 You will have to import -> from module_structure1.tensor_operator import TensorCalculator
 
