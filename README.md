@@ -1,15 +1,15 @@
-#module_structure1
-##1. Project description:
+# module_structure1
+## 1. Project description:
 
 The goal is to know more about Tensors. The objective of the
 project is to create a Python module that can perform various operations 
 on 2-dimensional Pytorch Tensors.
 
-##2. Tensor Calculator
+## 2. Tensor Calculator
 
 The TensorCalculator module provides functions for common operations on two-dimensional tensors using PyTorch.
 
-##3. Installation
+## 3. Installation
 
 To use the python tensor_operator.py you will have to install using the pip install
 Using the following command in on your Conda environment for example
@@ -93,7 +93,7 @@ you may encounter a TypeError or ValueError. Double-check that your inputs are i
 If you encounter any other errors or unexpected behavior, please check the documentation and make sure you are using the functions correctly. If the issue persists, feel free to open an issue in the repository or seek help from the community.
 
 
-##5. Contributing
+## 5. Contributing
 
 We welcome the contributions from the community.
 If you'd like to contribute to this project, please follow these steps:
@@ -113,7 +113,7 @@ I recommend using Pycharm to make the changes.
 
 Thank you for contributing to the project!!!
 
-##License
+## License
 
 Under MIT license..
 
