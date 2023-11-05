@@ -1,4 +1,4 @@
-1. Project description:
+*1. Project description:*
 
 The goal is to know more about Tensors. The objective of the
 project is to create a Python module that can perform various operations 
